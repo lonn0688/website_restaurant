@@ -1,0 +1,85 @@
+[
+    {
+        "ID": 1,
+        "Navn": "Green maki",
+        "Billede": "green_maki",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Hosomaki er den mindste rulle. Hoso betyder tynd på japansk, mens maki betyder at rulle - altså tynde ruller. Hosomaki inside-out med blomkål, avocado, chilli og koriander. En rigtig lækkerbisken",
+        "Kategori": "For 1 person",
+        "Pris": "80 kr."
+
+  },
+    {
+        "ID": 2,
+        "Navn": "Sayedo",
+        "Billede": "sayendo_maki",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Hosomaki er den mindste rulle. Hoso betyder tynd på japansk, mens maki betyder at rulle - altså tynde ruller. Hosomaki med sukkerærter. En rigtig lækkerbisken",
+        "Kategori": "For 1 person",
+        "Pris": "80 kr."
+  },
+    {
+        "ID": 3,
+        "Navn": "Shake kjuri",
+        "Billede": "shake_kjuri",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Hosomaki er den mindste rulle. Hoso betyder tynd på japansk, mens maki betyder at rulle - altså tynde ruller. Hosomaki med laks, agurk, miso aioli og sesam. Nam nam!",
+        "Kategori": "For 1 person",
+        "Pris": "80 kr."
+  },
+    {
+        "ID": 4,
+        "Navn": "Perfect day",
+        "Billede": "perfect_day",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Maki: Chrispy ebi, spicy tuna roll, og rispapir med and og goma. Nigiri: Avocado, flammegrillet laks og tun. Tataki laks og ponzu. Krabbe croquetter med wasabi caesar. Sticks: Kyllinge kødboller med teriyaki, asparges svøbt  i bacon og laks teriyaki.",
+        "Kategori": "For 2 personer",
+        "Pris": "299 kr."
+  },
+    {
+
+        "ID": 5,
+        "Navn": "Shrimp tempura roll",
+        "Billede": "shrimp",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Shrimp tempura roll med advocado, sprød tempura rejer toppede med ristet sesam",
+        "Kategori": "For 2 personer",
+        "Pris": "299 kr."
+  },
+    {
+        "ID": 6,
+        "Navn": "Salmon deluxe",
+        "Billede": "salmon",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Lækker Salmon roll med advocado, agurk og aioli. MUMS!",
+        "Kategori": "For 2 personer",
+        "Pris": "299 kr."
+  },
+    {
+        "ID": 7,
+        "Navn": "Hvid chokolade mousse",
+        "Billede": "hvid_choko",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Hvid chokolade mousse toppet med lakrids og skum samt bær.",
+        "Kategori": "Desserter",
+        "Pris": "49 kr."
+  },
+    {
+        "ID": 8,
+        "Navn": "Matcha Fondant",
+        "Billede": "matcha",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Matcha fondant med mandler, matcha og chokolade. Lækkert!",
+        "Kategori": "Desserter",
+        "Pris": "49 kr."
+  },
+    {
+        "ID": 9,
+        "Navn": "Chokolade kage",
+        "Billede": "chokokage",
+        "KortBeskrivelse": "Klik for mere info",
+        "LangBeskrivelse": "Marcel chokoladekage toppet med chokolade perler.",
+        "Kategori": "Desserter",
+        "Pris": "49 kr."
+  }
+]

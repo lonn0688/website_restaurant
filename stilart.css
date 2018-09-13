@@ -1,0 +1,121 @@
+header .banner {
+    text-align: center;
+    background-color: black;
+}
+
+body {
+
+    background: linear-gradient(to bottom, #000000 15%,  #ffffff 100%);
+
+
+    font-family: lora, serif;
+
+
+
+}
+
+
+
+
+
+
+article {
+    padding: 1em;
+    background-color: whitesmoke;
+
+
+
+}
+
+.data-container article img {
+    width: 100%;
+
+}
+
+.data-container {
+    margin: 0 auto;
+    display: grid;
+
+
+
+}
+
+@media screen and (min-width:580px) {
+    .data-container {
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#modal {
+
+    background-color: rgba(F0D0F1);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    text-align: left;
+
+    font-family: lora, serif;
+    letter-spacing: 1,5px;
+   line-height: 1.6;
+
+
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+#modal-content {
+    width: 40vw;
+    height: 50vw;
+    margin: auto;
+    background-color: white;
+    opacity: none;
+
+
+    padding: 20px;
+
+}
+
+
+
+
+#modal.vis {
+
+    display: block;
+    opacity: 1;
+    pointer-events: all;
+
+
+
+
+
+
+}
+
+#modal img {
+    max-height: 100%;
+    padding-left: 40px;
+
+
+}
+
+
+nav {
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+nav .menu-item {
+    font-size: 20px;
+   font-family: lora, serif;
+
+
+    text-align: center;
+}
+
+#footer {text-align: center;}
