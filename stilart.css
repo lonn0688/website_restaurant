@@ -1,44 +1,87 @@
-header .banner {
+header {
+
     text-align: center;
-    background-color: black;
-}
-
-body {
-
-    background: linear-gradient(to bottom, #000000 15%,  #ffffff 100%);
-
-
-    font-family: lora, serif;
-
-
-
 }
 
 
 
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+
+body {background-image: url(sakurabackground.png);
+
+    }
+
+/*body {
+
+    background: linear-gradient(to bottom, #000000 3%, #FFE4E1, #ffffff 100%);
+    background-repeat: no-repeat;
+    font-family: lora, serif;}*/
+
+/* background-color: #ccc;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+div:after {
+  background: url(sakurabackground.jpeg);
+  opacity: 0.25;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+*/
+
+button a {
+    text-decoration: none;
+
+}
 
 
 
 article {
+    margin top: 30px;
+    /*parse error?*/
+    border: 3px solid black;
+
     padding: 1em;
     background-color: whitesmoke;
-
-
 
 }
 
 .data-container article img {
     width: 100%;
-
 }
 
 .data-container {
     margin: 0 auto;
     display: grid;
 
-
-
 }
+
+
+
+
 
 @media screen and (min-width:580px) {
     .data-container {
@@ -50,36 +93,43 @@ article {
 }
 
 #modal {
-
-    background-color: rgba(F0D0F1);
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     position: fixed;
-    text-align: left;
-
+    text-align: center;
     font-family: lora, serif;
-    letter-spacing: 1,5px;
-   line-height: 1.6;
-
-
+    letter-spacing: 1.5px;
+    line-height: 1.5;
     display: none;
     top: 0;
     left: 0;
+    font-size: 20px;
+
+
+
 }
 
 #modal-content {
-    width: 40vw;
-    height: 50vw;
+    width: 70vw;
+    height: 300vw;
     margin: auto;
-    background-color: white;
-    opacity: none;
+    background-color: mistyrose;
+    padding-left: 1px;
+    border: 2px solid black;
 
 
-    padding: 20px;
 
 }
 
+#modal-content img {
 
+    max-height: 100%;
+    max-width: 100%;
+
+
+
+
+}
 
 
 #modal.vis {
@@ -88,34 +138,264 @@ article {
     opacity: 1;
     pointer-events: all;
 
-
-
-
-
-
-}
-
-#modal img {
-    max-height: 100%;
-    padding-left: 40px;
-
-
 }
 
 
 nav {
+
+ font-family: lora, serif;
+    border: none;
+    color: white;
+
     text-align: center;
-    padding: 20px;
+    font-size: 17px;
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 7), transparent);
 
 
+
+
+}
+
+Nav a {
+    color: #f2f2f2;
+}
+
+Nav a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 nav .menu-item {
-    font-size: 20px;
-   font-family: lora, serif;
+
+    font-family: lora, serif;
+    border: none;
+    color: white;
+
+    text-align: center;
+    font-size: 17px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 7), transparent);
+
+}
+
+/*@media screen and (min-width:700px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 23px;
+
+    }
+}*/
+
+.highlightindex {
+
+
+    padding: 5px, 10px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 7), transparent);
+    width: 80%;
+    max-width: 800px;
+    margin: .3em auto 0;
+    font-weight: normal;
+}
+
+
+
+
+
+.section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 50%;
+    border: 3px solid black;
+    position: relative;
+    top: 60px;
+    bottom: 100px;
+
+}
+
+#footer {
 
 
     text-align: center;
+    color: gray;
+    position: relative;
+    top: 60px;
+
 }
 
-#footer {text-align: center;}
+
+/*sakura - den forstørre siden?... */
+
+body {
+    position: relative;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body::before {
+    content: "";
+    background-image: url('http://bnetus-a.akamaihd.net/overwatch/static/media/wallpaper/genji-theatrical-wide.4V1V7.jpg');
+    background-size: cover;
+    background-position: 0 25%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.parent {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+
+
+.petal {
+    margin: 1px;
+    animation: fall1 20s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #FE85C0;
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 3px 3px 5px -3px #FFF;
+    border-radius: 15px 5px 15px 0px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.petal::after {
+    content: '';
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #DB0637;
+    border-radius: 15px 5px 15px 0px;
+    transform: rotateY( 180deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.petal:nth-child(2) {
+    animation-name: fall2;
+    animation-delay: 1.25s;
+    top: 10%;
+}
+
+.petal:nth-child(3) {
+    animation-name: fall3;
+    animation-delay: 4.65s;
+    top: 25%;
+}
+
+.petal:nth-child(4) {
+    animation-name: fall4;
+    animation-delay: 1.15s;
+    top: 30%;
+}
+
+.petal:nth-child(5) {
+    animation-name: fall5;
+    animation-delay: 1.35s;
+    top: 50%;
+}
+
+.petal:nth-child(6) {
+    animation-name: fall6;
+    animation-delay: 3.25s;
+    top: 75%;
+}
+
+.petal:nth-child(7) {
+    animation-name: fall2;
+    animation-delay: 2.25s;
+    top: 10%;
+}
+
+.petal:nth-child(8) {
+    animation-name: fall3;
+    animation-delay: 3.65s;
+    top: 25%;
+}
+
+.petal:nth-child(9) {
+    animation-name: fall4;
+    animation-delay: 0.15s;
+    top: 30%;
+}
+
+.petal:nth-child(10) {
+    animation-name: fall5;
+    animation-delay: 1.25s;
+    top: 50%;
+}
+
+.petal:nth-child(11) {
+    animation-name: fall6;
+    animation-delay: 0.25s;
+    top: 75%;
+}
+
+.petal:nth-child(12) {
+    animation-name: fall6;
+    animation-delay: 1.75s;
+    top: 85%;
+}
+
+@keyframes fall1 {
+    to {
+        transform: translateY(1000px) translateX(2560px) translateZ(200px) rotate3d(1, .25, 0, 320deg);
+    }
+}
+
+@keyframes fall2 {
+    to {
+        transform: translateY(1000px) translateX(2560px) translateZ(500px) rotate3d(1, .25, .25, 220deg);
+    }
+}
+
+@keyframes fall3 {
+    to {
+        transform: translateY(1000px) translateX(2560px) translateZ(300px) rotate3d(.25, 1, 1, 420deg);
+    }
+}
+
+@keyframes fall4 {
+    to {
+        transform: translateY(-160px) translateX(2560px) translateZ(-500px) rotate3d(1, 1, .25, 720deg);
+    }
+}
+
+@keyframes fall5 {
+    to {
+        transform: translateY(-200px) translateX(2560px) translateZ(400px) rotate3d(.25, 1, .25, 820deg);
+    }
+}
+
+@keyframes fall6 {
+    to {
+        transform: translateY(-300px) translateX(2560px) translateZ(-100px) rotate3d(1, 1, 1, 720deg);
+    }
+}
